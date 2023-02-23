@@ -1,0 +1,602 @@
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: 'Noto Sans';
+
+}
+
+/* Barra de navegacion */
+
+.contenedor-barra-navegacion{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3E454C;
+}
+
+.bars-menu{
+    display: none;
+}
+
+.redirecciones {
+    width: 350px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.redirecciones a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton-de-navegacion a{
+    text-decoration: none;
+    color: white;
+    background-color: #2D9BF0;
+    border-radius: 3px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Presentacion */
+
+.contenedor-presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 5%;
+}
+
+
+.informacion-presentacion {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.informacion-presentacion h1{
+    text-align: center;
+}
+
+.botones-presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.boton-presentacion {
+    text-decoration: none;
+    color: white;
+    background-color: #2D9BF0;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.boton-curriculum{
+    color: #3A3A3A;
+}
+
+.imagen-presentacion img{
+    height: 250px;
+    width: 290px;
+}
+
+/* Mas sobre mi */
+
+.contenedor-informacion-personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    background-color: #3E454C;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagen-perfil img{
+    height: auto;
+    width: 350px;
+}
+
+.informacion-personal {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.imagenes-herramientas {
+    display: flex;
+    gap: 10px;
+}
+
+.icono {
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.icono-java{
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.icono-sql{
+    height: 28px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.icono-js{
+    height: 28px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.icono-html{
+    height: 28px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+/* Habilidades */
+
+.contenedor-habilidades {
+    justify-content: center;
+    align-items: center;
+    background-color: #3E454C;
+    font-family: 'Noto Sans';
+    height: 400px;
+    color: white;
+    padding-top: 50px;
+}
+
+.contenedor-habilidades h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.habilidades {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+    grid-template-columns: 230px 230px 230px;
+}
+
+.habilidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 230px;
+    gap: 20px;
+    text-align: center;
+}
+
+.imagen-habilidad1 {
+    height: 100px ;
+    width: 80px;
+}
+
+.imagen-habilidad2 {
+    height: 100px ;
+    width: 100px;
+}
+
+.imagen-habilidad3 {
+    height: 100px ;
+    width: 90px;
+}
+
+.titulo-habilidad{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.parrafo-habilidad{
+    font-size: 14px;
+}
+
+/* Mis proyectos */
+
+.contenedor-proyectos {
+    display: grid;
+    grid-template-columns: 60% ;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.contenedor-proyectos h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.imagen-proyecto{
+    height: 200px;
+    width: 350px;
+}
+
+.proyecto {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.p2{
+    flex-direction: row-reverse;
+}
+
+.informacion-proyecto {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.boton-proyecto {
+    text-decoration: none;
+    color: white;
+    background-color: #2D9BF0;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 70px; 
+}
+
+/* Pie de pagina */
+
+.pie-de-pagina {
+    background-color:#3E454C;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+}
+
+.titulo-contactame{
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+.inputs-contactame {
+    justify-content: center;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 200px;
+    gap: 50px;
+}
+
+.inputs-contactame h4{
+    padding-bottom: 10px;
+}
+
+.inputs-contactame input{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: #3E454C solid;
+    color: #393939;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.input-mensaje{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.input-mensaje textarea{
+    height: 180px;
+    width: 100%;
+    border-radius: 5px;
+    border: #3E454C solid;
+    color: #393939;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.boton-contactame {
+    text-decoration: none;
+    color: white;
+    background-color: #2D9BF0;
+    border: #2D9BF0 solid;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 50%;
+}
+
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    justify-content: left;
+    gap: 30px;
+}
+
+.titulo-contacto{
+    font-size: 35px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.iconos-contacto {
+    display: flex;
+    justify-content: left;
+    gap: 25px;
+}
+
+.contacto{
+    background-color: white;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.icono-linkedin {
+    height: 70px;
+}
+
+.icono-github {
+    height: 70px;
+}
+
+.icono-whatsapp {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 11px;
+}
+
+.icono-ig {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    .contenedor-barra-navegacion{
+        justify-content: space-between;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+
+    .redirecciones{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 50px;
+        font-size: 20px;
+        width: 35%;
+        height: 25%;
+        left: -100%;
+        margin: 0;
+        position: absolute;
+        float: none;
+        background-color: #3E454C;
+        padding-left: 35px;
+        gap: 50px;
+    }
+
+
+    .bars-menu{
+        display: block;
+        padding-top: 2px;
+        width: 35px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .bars-menu span {
+        display: block;
+        width: 100%;
+        height: 4px;
+        background: white;
+        margin-top: 6px;
+        transform-origin: 0px 100%;
+        transition: all 300ms;
+    }
+    
+    .activeline1__bars-menu{
+        transform: rotate(45deg) translate(-3px, 1px); 
+    }
+
+    .activeline2__bars-menu{
+        opacity: 0;
+        margin-left: -30px; 
+    }
+    
+    .activeline3__bars-menu{
+        transform: rotate(-45deg) translate(-3px, 2px);
+    }
+
+    .icono-java{
+        height: 25px;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+    
+    .icono-sql{
+        height: 28px;
+        margin-top: 6px;
+        margin-left: 1px;
+    }
+    
+    .icono-js{
+        height: 28px;
+        margin-top: 6px;
+        margin-left: 1px;
+    }
+    
+    .icono-html{
+        height: 28px;
+        margin-top: 6px;
+        margin-left: 1px;
+    }
+
+    /* presentacion */
+
+    .contenedor-presentacion {
+        padding-top: 10px;
+        justify-self: center;
+    }
+
+    .informacion-presentacion {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .imagen-presentacion {
+        display: none;
+    }
+
+    /* Mas sobre mi */
+
+    .contenedor-informacion-personal {
+        flex-direction: column;height: 400px;
+        background-image: linear-gradient(to bottom,white 0%, white 30%, #3E454C 30%, #3E454C 100%);
+    }
+
+    .imagen-perfil img{
+        height: auto;
+        width: 300px;
+    }
+    
+    .informacion-personal {
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* Habilidades */
+
+    .contenedor-habilidades{
+        height: 690px;
+    }
+
+    .titulo-habilidades{
+        padding-top: 50px;
+    }
+
+    .habilidades {
+        grid-template-columns: 90%;
+        justify-items: center;
+    }
+
+    .habilidad {
+        flex-direction: row;
+        height: auto;
+        text-align: right;
+        width: 90%;
+    }
+
+    .h2 {
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+
+    .imagen-habilidad1 {
+        height: 80px ;
+        width: 80px;
+    }
+    
+    .imagen-habilidad2 {
+        height: 100px ;
+        width: 100px;
+    }
+    
+    .imagen-habilidad3 {
+        height: 90px ;
+        width: 90px;
+    }
+
+
+    /* Mis proyectos */
+
+    .contenedor-proyectos {
+        grid-template-columns: 80% ;
+    }
+
+    .contenedor-proyectos h1{
+        font-size: 35px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .proyecto {
+        flex-direction: column;
+        height: 500px;
+        text-align: center;
+        padding-bottom: 100px;
+        gap: 10px;
+    }
+
+    .informacion-proyecto {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .boton-proyecto {
+        width: 40%;
+    }
+
+    /* Pie de pagina */
+
+    .pie-de-pagina {
+        grid-template-columns: 80%;
+    }
+
+    .titulo-contactame{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .titulo-contacto{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .iconos-contacto{
+        justify-content: center;
+    }
+
+}
