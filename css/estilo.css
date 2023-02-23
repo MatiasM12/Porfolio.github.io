@@ -391,8 +391,8 @@
 @media (max-width: 1200px) {
     .contenedor-barra-navegacion{
         justify-content: space-between;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -506,7 +506,7 @@
     /* Habilidades */
 
     .contenedor-habilidades{
-        height: 690px;
+        height: 700px;
     }
 
     .titulo-habilidades{
@@ -554,7 +554,7 @@
 
     .contenedor-proyectos h1{
         font-size: 35px;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
         text-align: center;
     }
 
@@ -599,4 +599,34 @@
         justify-content: center;
     }
 
+    .contenedor-contacto{
+        padding-top: 40px;
+    }
+
+    .contacto{
+        background-color: white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .icono-linkedin {
+        height: 50px;
+    }
+    
+    .icono-github {
+        height: 50px;
+    }
+    
+    .icono-whatsapp {
+        height: 35px;
+        padding-top: 7px;
+        padding-left: 8px;
+    }
+    
+    .icono-ig {
+        height: 35px;
+        padding-top: 7px;
+        padding-left: 8px;
+    }
 }
